@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirate speak app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav>
-        <h1>Pirate Speak App</h1>
-        <img src="images/pirate.svg" alt="pirate">
+        <h1>Pirate Speak App</h1>    
     </nav>
 
     <main>
-        <textarea placeholder="Write here the text that you want to translate"></textarea>
-        <button>Click to translate</button>
+        <div class="div-pirate"><img class="pirate-image" src="images/pirate.svg" alt="pirate"></div>
+        <textarea class="text-input" placeholder="Write here the text that you want to translate"></textarea>
+        <button class="translate-button">Click to translate</button>
 
         <p>This is where the translated text will appear👇 🏴‍☠️</p>
-        <div>Click translate button to view translated message.</div>
+        <div class="output-translated">Waiting...</div>
     </main>
     
     <footer>
-        <div>About</div>
-        <p></p>
+        <div class="footer-header">About</div>
+        <p>This is the Pirate speak app, that translates
+            a given input text into pirate vocabulary.
+        </p>
     </footer>
 
-    
+    <script src="main.js" type="text/javascript"></script>
 </body>
 </html>

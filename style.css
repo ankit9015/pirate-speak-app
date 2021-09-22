@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --green: green;
+    --primary-color: rgb(101, 100, 151);
+    --white: rgb(247, 252, 228); 
+    --gray: rgb(94, 88, 88);
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);  
+    font-size: 1.3rem;     
+}
+
+nav {
+    background-color: var(--primary-color);
+    font-size: 30px;
+    color: var(--white);
+    font-weight: bold; 
+    text-align: center;
+    margin: 0px;
+    padding: 1rem;
+}
+
+
+.pirate-image {
+    max-height: 40vh;
+    height: 50vh;
+    margin: auto;
+    display: block;
+}
+
+textarea {
+    max-height: 30vh;
+    height: 20vh;
+    color: var(--green);
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.translate-button {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    background-color: var(--green);
+    color: var(--white);
+    color: var(--white);
+    font-size: large;
+    font-family: inherit;
+}
+
+::placeholder {
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+    color: var(--gray);
+}
+
+.output-translated {
+    max-height: 30vh;
+    height: 20vh;
+    color: var(--primary-color);
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    overflow: scroll;
+    background-color: var(--white);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    font-size: medium;
+    padding: 1rem 2rem;
+    position: relative;
+    margin-top: 2rem;
+    bottom: 0px;
+}
+
+footer .footer-header {
+    font-size: 40px;
+}
+
